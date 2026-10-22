@@ -105,3 +105,4 @@
 
 ## 2. Kesimpulan
 > Proyek UTS sistem parkir ini berhasil menerapkan konsep utama OOP: **enkapsulasi** (atribut `private` dengan getter), **pewarisan** (`Mobil` dan `Motor` mewarisi `Kendaraan`), **abstraksi** (abstract class `Kendaraan` dan interface `Pembayaran`), serta **polimorfisme** (`hitungbiaya()` dan `bayar()` dipanggil lewat tipe induk/interface). Tema parkir cocok karena kendaraan dan metode pembayaran mudah dimodelkan sebagai objek, dan struktur ini memudahkan penambahan jenis kendaraan atau metode pembayaran baru. Dari sisi evaluasi, perhitungan tarif sebaiknya memanfaatkan `hitungbiaya()` pada masing-masing subclass agar tidak terjadi duplikasi tarif di `TransaksiParkir`. Dari sisi kolaborasi, pembagian tugas per file membuat pengerjaan lebih terorganisir, sementara komunikasi antaranggota tetap diperlukan agar antarkelas terintegrasi dengan baik.
+.
